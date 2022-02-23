@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "CommonJS",
+        "removeComments": true,
+        "allowJs": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "incremental": true,
+        "baseUrl": ".",
+        "outDir": "./dist"
+    },
+    "include": ["**/*.ts", "**/*.json"],
+    "exclude": ["dist", "node_modules"]
+}
